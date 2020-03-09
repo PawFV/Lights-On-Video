@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title>Document</title>
+    </head>
+    <body id="cuerpo">
+        
+    
+        <div class="container" id="container">
+            <!-- <div>
+                <img class="open-windows" id="windws" src="images/window.jpg">
+            </div> -->
+            <div class="container-switch-img">
+                <!-- IMAGEN -->
+                <img src="images/pic_bulboff.gif" alt="luz apagada" id="foto" 
+                style="transform:rotate(180deg);">
+            </div>
+
+            <!-- VIDEO -->
+            <div class="sub-elem-container">
+                <video src="videos/video.mp4" id="video1" height="400px"
+                class="video-asqueroso" style="transition: box-shadow, opacity 2s;">
+                </video>
+            </div>
+
+            <!-- BOTONES ON/OFF -->
+            <div class="buttons-light">
+                <a onclick="prende();"><i class="fas fa-toggle-off fa-3x" id="botonOff"></i></a>
+                <a onclick="apaga();"><i class="fas fa-toggle-on fa-3x" style="display:none;" 
+                id="botonOn"></i></a>
+                
+            </div>
+        </div>
+    </body>
+
+    <script src="js.js">
+
+    </script>
+
+</html>
